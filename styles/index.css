@@ -1,0 +1,35 @@
+main {
+    background-color: rgb(225, 225, 225);
+    display: flex;
+}
+#hero {
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    object-fit: cover;
+    overflow: hidden;
+}
+#hero-card {
+    width: 50%;
+    margin: 30% auto;
+    background-color: rgb(15, 15, 15);
+    padding: 4rem;
+}
+#hero-card h3 {
+    font-family: "Oleo Scripts";
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0087e9;
+}
+#hero-card p {
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+#hero-card p span {
+    font-size: 2.8rem;
+    color: #0087e9;
+}
