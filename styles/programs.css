@@ -1,0 +1,60 @@
+main {
+    margin: 2rem;
+}
+#description {
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(15, 15, 15);
+}
+#description h2,
+#description h2 span {
+    font-size: 2rem;
+    text-align: center;
+}
+#description h2 span {
+    text-decoration: underline;
+    text-decoration-color: #0074f1;
+}
+#description p {
+    margin-top: 1rem;
+    text-align: center;
+}
+#programs {
+    list-style: none;
+    margin-top: 2rem;
+}
+#programs li {
+    background-color: rgb(15, 15, 15);
+    margin: 10px;
+}
+
+#programs li article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#programs li article img {
+    object-fit: cover;
+    border-radius: 6px;
+    padding: 4px;
+}
+#programs li article h3 {
+    color: #0074f1;
+    margin-top: 1rem;
+}
+#programs li article p {
+    color: aliceblue;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+@media (max-width: 48rem) {
+    #programs li article {
+        width: 100%;
+    }
+    #programs li article h3 {
+        font-size: 1rem;
+    }
+    #programs li article p {
+        font-size: 0.7rem;
+    }
+}
